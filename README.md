@@ -1,111 +1,87 @@
-If you are looking forward to install the Danphe you can follow the below labs <br>
-<a href="https://youtu.be/lKORZmKG0sA"> Lab 1 :- Installing Danphe App in desktop mode. </a> <br>
-<a href="https://youtu.be/HmAAbFiPOKw"> Lab 2 :- Configuring Danphe inside IIS. </a> <br>
-We will be adding more videos in coming time.
-<br>
-If you have any issues please send us mail at shiv_koirala@yahoo.com  more than happy to help you in understanding and installing. You can also <a href="https://www.ehospitalmanagementsystem.com/" target="_new">
- Chat with us here.
-</a> 
-<br> <br> <br><br>
-Scripts and tools will be listed here <br>
-<a href="https://github.com/opensource-emr/cleanupDanpheDM">Clean up script to start from scratch</a> <br>
- <br>
- If you wish to see demo <a href="http://202.51.74.168:302" target="_blank">
- Click here
-</a> Username  : admin / Password  : pass123 <br>
-Also please do read down for more details of how to install and configure.
+Danphe EMR – Hospital Management System
+Danphe EMR is a complete web-based hospital management solution designed to streamline healthcare operations. It includes modules for patient registration, billing, pharmacy, lab, radiology, inventory, and much more — all in one integrated platform.
 
-Introduction
-==============
-Danphe EMR is a enterprise web-based application which covers all day to day aspects of Hospital management end to end. Its currently live 50 plus hospitals in Asia(India,Nepal and Bangladesh). 
+This document provides a clear guide to installing and running Danphe EMR on your system.
 
-![danphelogin](https://user-images.githubusercontent.com/48054642/159859670-05cbe026-f0eb-43cf-811a-0404a36a76f7.jpg) ![danphepatientregistration](https://user-images.githubusercontent.com/48054642/159859505-84b59b71-d271-4e33-b504-1c15ecba3580.jpg)
+📹 Step-by-Step Installation Videos
+Install in Desktop Mode – Watch Here
 
-Modules in Danphe EMR
-==============
-It has around 40 modules and below are important ones listed.
+Configure in IIS – Watch Here
 
-+ Registration/Patient 
-+ Appointment 
-+ Billing Module 
-+ Accounting Module 
-+ Inventory Management 
-+ Pharmacy Module 
-+ Laboratory Management 
-+ User Module 
-+ Admission Discharge and Transfer (ADT) 
-+ Nursing Module 
-+ Sub-store Module 
-+ Radiology Management 
-+ Medical Record 
-+ Emergency 
-+ Reporting and Dashboard 
-+ Doctors 
+📞 Contact for Support
+For help with installation, configuration, or usage:
 
-`and more...`
+📧 Email: hasintaj2005@gmail.com 
 
-Demo of Danphe EMR
-==============
-If you have any issues please sen us mail at shiv_koirala@yahoo.com 
+🧹 Utilities
+Database Cleanup Script – Reset Installation
 
-Click on below demo link and check out live application
+🚀 Live Demo
+🔗 Click here for Demo
 
-<a href="http://202.51.74.168:302/" target="_blank">
-  Danphe EMR Live Application
-</a>
+Demo Login:
 
-Use below `credentials` for login
+makefile
+Copy
+Edit
+Username: admin  
+Password: pass123  
+📌 Main Modules
+Danphe EMR includes 40+ modules, with key ones being:
 
-```
-   Username  : admin
-   Password  : pass123
-```   
+Patient Registration
 
-Need help?
-==============
-If you have any issues please send us mail at shiv_koirala@yahoo.com  more than happy to help you in understanding and installing.
+Appointment Scheduling
 
-Installation & Setup
-======================
-Getting start with **DanpheEMR** Please visit <a href="https://opensource-emr.github.io/hospital-management-emr//#setup" target="_blank">
-    :point_right: Page
-</a>  and read it carefully. 
-Here you have details about requirements, configuration and setup.
+Billing & Accounting
 
+Pharmacy Management
 
-#### Development Setup
+Laboratory Module
 
-+ This details for `developers` who wants to `clone DanpheEMR`, Use it and `help` us for improvements.
-+ We have all details like software and tools `requirements`
-+ Step by step guide for `build and run` project
-+ Database creation 
-`and more..`
+Radiology Module
 
+Inventory & Sub-Store
 
-<a href="https://opensource-emr.github.io/hospital-management-emr/#setup" target="_blank">
-    :point_right: docs
-</a>
+Admission, Discharge, Transfer (ADT)
 
-Credits
-========
+Nursing Module
 
-## Sponsors
-All sponsors are here. Thanks all sponsors for your contributions.
+Medical Records
 
-<a href="https://www.imarkdigital.com/" target="_blank">
-  <img src="https://user-images.githubusercontent.com/48054642/161473176-51fcb05f-e87f-4229-8673-887bf5060fe0.png" />
-</a>
+Emergency Management
 
-## Contributors
-Thanks all contributors. 
+Reporting & Analytics Dashboard
 
-<a href="https://github.com/opensource-emr/hospital-management-emr/graphs/contributors" target="_blank">
-  <img src="https://contrib.rocks/image?repo=opensource-emr/hospital-management-emr" />
-</a> <br><br>
+🛠 Installation & Setup
+Follow these steps to set up Danphe EMR:
 
+Check System Requirements – Ensure your system meets the hardware and software prerequisites.
 
-License
-==============
+Download & Install – Install Danphe EMR in desktop or IIS mode (refer to videos above).
 
-See the [LICENSE](https://github.com/opensource-emr/hospital-management-emr/blob/master/LICENSE) file.
+Database Setup – Create and configure the database.
+
+Configuration – Update settings as per your hospital requirements.
+
+Run the Application – Launch and log in with admin credentials.
+
+For a detailed step-by-step guide, refer to the official installation page:
+👉 Setup Guide
+
+👨‍💻 Developer Information
+If you plan to extend or customize Danphe EMR:
+
+Clone the codebase
+
+Install required dependencies
+
+Configure database connection
+
+Build and run locally
+
+Add your custom modules or UI changes
+
+📜 License
+This project follows an open-source license. You are free to modify and adapt it for your requirements.
 
